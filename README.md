@@ -12,8 +12,8 @@ This repository is a collection of code samples that are specifically tailored f
 ## Languages Covered
 The examples in this repository are provided in the following languages:
 
-- C#
-- Javascript
+- C# 
+- [Javascript](/code_samples/javascript_samples)
 - Java
 
 **Note:** We encourage you to explore the code samples and integrate them into your applications. Your feedback and contributions are highly appreciated!
