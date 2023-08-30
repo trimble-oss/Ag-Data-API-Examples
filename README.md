@@ -1,4 +1,4 @@
-<img src="7d517d70-9430-48da-87f7-866fcce17e66%20(1).gif" alt="Ag Data API" width="200" />
+<img src="ag_computer.gif" alt="Ag Data API" width="200" />
 
 # **Ag Data API Examples**
 Welcome to the Ag Data API Examples repository! This collection of code examples and samples aims to provide developers with a guided approach to working with the Trimble Ag Data API.
