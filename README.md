@@ -16,7 +16,7 @@ The examples in this repository are provided in the following languages:
 - [Javascript](/code_samples/javascript_samples)
 - Java
 
-## Extras
+## ➕ Extras
 Over time, different code sample extras that include other possible workflows will be added [here.](/extras)
 
 
