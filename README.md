@@ -17,7 +17,7 @@ The examples in this repository are provided in the following languages:
 - Java
 
 ## Extras
-Over time, different code sample extras that include other possible workflows will be added [here.](/Ag-Data-API-Examples/extras)
+Over time, different code sample extras that include other possible workflows will be added [here.](/extras)
 
 
 ## Feedback
