@@ -24,7 +24,7 @@ const generateAccessToken = require('./generateAccessToken');
 
   try {
     const prescriptionResponse = await axios.post(`https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0/prescriptions/${orgId}/rx/importjob`, {
-      fileName: "/Users/hbarnes/Downloads/Ag_Data_API_Project/PrescriptionFileExample2.zip",
+      fileName: "/workspaces/Ag-Data-API-Examples/code_samples/javascript_samples/PrescriptionFileExample2.zip",
       rateColumn: "0-60-0",
       rateUnit: "gal/ac",
       deviceIds: null
@@ -44,7 +44,7 @@ const generateAccessToken = require('./generateAccessToken');
   }
 
   try {
-    const fileStream = fs.createReadStream('/Users/hbarnes/Downloads/Ag_Data_API_Project/PrescriptionFileExample2.zip');
+    const fileStream = fs.createReadStream('/workspaces/Ag-Data-API-Examples/code_samples/javascript_samples/PrescriptionFileExample2.zip');
 
     const uploadResponse = await axios.patch(`https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0/prescriptions/${orgId}/rx/importjob/${jobId}`, fileStream, {
       headers: {

@@ -15,6 +15,7 @@ The examples in this repository are provided in the following languages:
 - C# 
 - [Javascript](/code_samples/javascript_samples)
 - Java
+- [Python](/code_samples/python)
 
 ## ➕ Extras
 Over time, different code sample extras that include other possible workflows will be added [here.](/extras)
