@@ -1,5 +1,5 @@
 # Java Samples/Examples
-This folder contains Java code samples for the common workflow given in the Ag Data API documentation.
+This folder contains Java code samples for the common workflows given in the Ag Data API documentation.
 
 ## Installation & Dependencies
 
@@ -13,8 +13,8 @@ This folder contains Java code samples for the common workflow given in the Ag D
 
 ## Running the project
 
-1. The main method is in `SampleCodeMain.java` file.
-2. You can comment the method calls that you do not wish to execute in the main method.
-3. `GetAuthToken.java` class generates the token for your application. This code uses Client Credentials. You will have to change the code if your application uses Authorization Code Grant.
+1. The main method is in the `SampleCodeMain.java` file.
+2. You can comment out the method calls that you do not wish to execute in the main method.
+3. `GetAuthToken.java` class generates the access token for your application. This code uses Client Credentials. You will have to change the code if your application uses an Authorization Code Grant.
 4. You will have to add the API credentials for your application in `SampleCodeMain.java` file and your application name in `GetAuthToken.java` file to generate an access token successfully.
 5. Sample prescription files are under the [files](/files/prescriptions) folder.
