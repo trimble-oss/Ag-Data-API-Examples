@@ -21,6 +21,7 @@ public class SendBoundaries {
 				.header ("Accept-Encoding", "gzip, deflate")
 				.header ("Content-Type", "application/json")
 				.header ("Accept", "application/json")
+				//Add your FieldId, Name and geometry below//
 				.POST(HttpRequest.BodyPublishers.ofString("{\"fieldID\":\"YOUR_FIELD_ID\",\"name\":\"TestBoundary1\",\"geometry\": {\"type\":\"Polygon\",\"coordinates\": [[[-50.92206440928118,16.73240259727149],[-50.92207997507916,16.732415410798335],[-50.9226155938253,16.732386766217115],[-50.92254769623408,16.72547564102975],[-50.92196563143528,16.72546431234128],[-50.92206440928118,16.73240259727149]]]}}"))
 				.build();
 		

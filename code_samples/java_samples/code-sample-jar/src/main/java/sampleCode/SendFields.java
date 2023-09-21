@@ -20,7 +20,7 @@ public class SendFields {
 				.header ("Authorization", "Bearer " + token)
 				.header ("Content-Type", "application/json")
 				.header ("Accept", "application/json")
-				.POST(HttpRequest.BodyPublishers.ofString("{\"Name\":\"TestFieldNew\",\"Area\":\"50\",\"FarmId\": null}"))
+				.POST(HttpRequest.BodyPublishers.ofString("{\"Name\":\"TestFieldNew\",\"Area\":\"50\",\"FarmId\": null}")) //Add your FieldName, Area and FarmId here//
 				.build();
 		
 		HttpClient client = HttpClient.newHttpClient();

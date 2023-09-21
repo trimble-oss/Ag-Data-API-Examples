@@ -29,7 +29,7 @@ public class GetAuthToken {
 				.uri(URI.create("https://id.trimble.com/oauth/token"))
 				.header ("Authorization", authHeaderValue)
 				.header ("Content-Type", "application/x-www-form-urlencoded")
-				.POST(HttpRequest.BodyPublishers.ofString("grant_type=client_credentials&scope=YOUR_APPLICATION_NAME"))
+				.POST(HttpRequest.BodyPublishers.ofString("grant_type=client_credentials&scope=YOUR_APPLICATION_NAME")) //Add your Application Name here.//
 				.build();
 		
 		try {

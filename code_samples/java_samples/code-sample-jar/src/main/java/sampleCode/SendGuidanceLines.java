@@ -20,6 +20,7 @@ public class SendGuidanceLines {
 				.header ("Authorization", "Bearer " + token)
 				.header ("Content-Type", "application/json")
 				.header ("Accept", "application/json")
+				//Add your FieldId, name, type, infillId and geometry here//
 				.POST(HttpRequest.BodyPublishers.ofString("{\"fieldId\":\"YOUR_FIELD_ID\",\"name\":\"TestGuidanceLine\",\"type\":\"AB\",\"infillId\": null,\"geometry\": {\"type\":\"LineString\",\"coordinates\": [[-80.98175304599994,26.783957370000053],[-80.98199208799997,26.783956905000025]]},\"numberOfSwaths\": null}"))
 				.build();
 		

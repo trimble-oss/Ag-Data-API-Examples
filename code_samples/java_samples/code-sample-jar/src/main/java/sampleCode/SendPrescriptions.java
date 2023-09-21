@@ -21,6 +21,7 @@ public class SendPrescriptions {
 	public static void sendPrescriptions() {
 		
 		String jobId = null;
+		//Add local path to the prescription file. Sample Prescription files available in /files/prescriptions folder//
 		Path filePath = Paths.get("PRESCRIPTION_FILE_PATH");
 		HttpClient client = HttpClient.newHttpClient();
 		
@@ -30,6 +31,7 @@ public class SendPrescriptions {
 				.header ("Authorization", "Bearer " + token)
 				.header ("Content-Type", "application/json")
 				.header ("Accept", "application/json")
+				//Update the FileName, RateColumn and RateUnit as per the prescription file you wish to upload//
 				.POST(HttpRequest.BodyPublishers.ofString("{\"FileName\":\"PrescriptionFileExample2.zip\",\"RateColumn\":\"0-60-0\",\"RateUnit\":\"kg/ha\",\"DeviceIds\": null}"))
 				.build();
 		
