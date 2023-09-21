@@ -14,7 +14,7 @@ The examples in this repository are provided in the following languages:
 
 - C# 
 - [Javascript](/code_samples/javascript_samples)
-- Java
+- [Java](code_samples/java_samples)
 - [Python](/code_samples/python)
 
 ## ➕ Extras
