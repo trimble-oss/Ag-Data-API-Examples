@@ -13,7 +13,7 @@ const generateAccessToken = async () => {
     
         const data = new URLSearchParams();
         data.append('grant_type', 'client_credentials');
-        data.append('scope', 'ShivaniClient-Test');
+        data.append('scope', 'Add your application name here'); // Add your application name here
     
         const response = await axios.post('https://id.trimble.com/oauth/token', data, {
           headers: headers,

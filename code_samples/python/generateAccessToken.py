@@ -13,7 +13,7 @@ def generate_access_token():
 
         data = {
             'grant_type': 'client_credentials',
-            'scope': 'ShivaniClient-Test'
+            'scope': 'Add your application name here' # Add your application name here
         }
 
         response = requests.post('https://id.trimble.com/oauth/token', data=data, headers=headers)
