@@ -8,7 +8,6 @@ const generateAccessToken = require('./generateAccessToken');
   // Call the function to generate access token
   const accessToken = await generateAccessToken();
 
-  let jobId;
   let orgId;
 
   try {
@@ -33,10 +32,39 @@ const generateAccessToken = require('./generateAccessToken');
     });
   
     console.log(JSON.stringify(activitiesResponse.data, null, 2));
-    // Process the data received in the response
-  
+    
+    // EDIT HERE: Choose the desired activity by its index in the array.
+    // For example, to get the first activity, set activityIndex to 0.
+    // To get the second activity, set activityIndex to 1, and so on.
+    const activityIndex = 0; // <--- EDIT THIS LINE TO CHOOSE ACTIVITY ID
+    const equipmentActivityId = activitiesResponse.data.result[activityIndex].id;
+
+    // Step 2: GET - Get the list of Layers for an Equipment Activity ID
+    const layersResponse = await axios.get(`https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0/tasks/${orgId}/layers`, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`
+      },
+      params: {
+        equipmentActivityId: equipmentActivityId
+      }
+    });
+    
+    console.log(JSON.stringify(layersResponse.data, null, 2));
+
+    // Assuming the first layer's ID is what we need for the next step
+    const layerId = layersResponse.data[0].id;
+
+    // Step 3: GET - Get the list of Samples on a Layer
+    const samplesResponse = await axios.get(`https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0/tasks/${orgId}/layers/${layerId}/samples`, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`
+      }
+    });
+
+    console.log(JSON.stringify(samplesResponse.data, null, 2));
+
   } catch (error) {
-    console.error(`Error in Step 1 - GET Equipment Activities: ${error}`);
+    console.error(`Error in Steps: ${error}`);
     if (error.response) {
       console.error(`Response data: ${JSON.stringify(error.response.data)}`);
     }
