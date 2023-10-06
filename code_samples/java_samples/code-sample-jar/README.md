@@ -32,3 +32,9 @@ This folder contains Java code samples for the common workflows given in the Ag 
   * Test_Rx3.zip
     * Rate Column - 11-52-0
     * Rate Unit - lbs/ac
+
+## Get Access to Trimble Ag Data APIs
+
+1. Request access to Trimble Ag Data APIs by completing [this](https://agriculture.trimble.com/en/partners/developer-resources/request-software-integration-api) form online.
+2. You can find the API Documentation [here](https://agdeveloper.trimble.com/api-docs).
+3. Please send your API related queries to our support email ag_api@trimble.com.
