@@ -2,9 +2,9 @@
 {
     public class LoginToken
     {
-        public string TokenType { get; set; }
-        public long ExpiresIn { get; set; }
-        public string AccessToken { get; set; }
+        public string Token_Type { get; set; }
+        public long Expires_In { get; set; }
+        public string Access_Token { get; set; }
        
     }
 }

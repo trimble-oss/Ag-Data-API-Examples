@@ -43,7 +43,7 @@ namespace SampleClientCode
 
             var loginToken = JsonSerializer.Deserialize<LoginToken>(jsonResponseString, options);
 
-            return loginToken ?? throw new Exception();
+            return loginToken;
         }
     }
 }

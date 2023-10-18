@@ -3,9 +3,9 @@
     public class SampleCodeMain
     {
         //ClientId, ClientSecret and ClientName for the registered app
-        public const string ClientId = "YOUR_CLIENT_ID";
-        public const string ClientSecret = "YOUR_CLIENT_SECRET";
-        public const string ClientName = "YOUR_CLIENT_NAME";
+        public const string ClientId = "c3a2ad47-9bf3-4c00-b6bc-2b4ab3213bb0";
+        public const string ClientSecret = "a6f4d553df914b8dbf3b6f758df932d7";
+        public const string ClientName = "ShivaniClient-Test";
 
         //These URLs are for Production endpoints.They will be different for other environments.
         public const string ApiCloudLoginUrl = "https://id.trimble.com/oauth/token";
@@ -21,7 +21,7 @@
                 var accessToken = await accessTokenClient.GetAccessTokenUsingClientCredentials();
 
                 //2. Then use the token to get the list of authorized organizations . The response will be of the type 'List<SampleCode.DataTransferObjectsOrganization>'
-                var organizationsClient = new OrganizationsClient(accessToken.AccessToken, OrgApiUrl);
+                var organizationsClient = new OrganizationsClient(accessToken.Access_Token, OrgApiUrl);
                 var organizations = await organizationsClient.GetAuthorizedOrganizations();
             }
             catch (Exception ex)

@@ -32,7 +32,7 @@ namespace SampleClientCode
 
             var actionResponse = JsonSerializer.Deserialize<ActionResponse<Organization>>(jsonResponseString, options);
 
-            return actionResponse?.Result ?? throw new Exception();
+            return actionResponse?.Result;
         }
     }
 }
