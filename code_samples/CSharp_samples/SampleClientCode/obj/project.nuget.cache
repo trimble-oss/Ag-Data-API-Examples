@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wvZAiVQ2HbZIW8gw61A07mh5GzR/h3j3X3nBMyik/vZG0GzTNnJOU3+TAD8oufpIBj5sXMUFGDHq9nKjncPMzg==",
+  "success": true,
+  "projectFilePath": "D:\\Ag\\Repos\\Fork2\\Ag-Data-API-Examples_Fork2\\code_samples\\CSharp_samples\\SampleClientCode\\SampleClientCode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SDubadi\\.nuget\\packages\\nettopologysuite\\2.0.0\\nettopologysuite.2.0.0.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\nettopologysuite.features\\2.1.0\\nettopologysuite.features.2.1.0.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\nettopologysuite.io.geojson4stj\\3.0.0\\nettopologysuite.io.geojson4stj.3.0.0.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\SDubadi\\.nuget\\packages\\system.text.json\\6.0.3\\system.text.json.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

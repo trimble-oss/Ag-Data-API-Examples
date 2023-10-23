@@ -29,7 +29,8 @@ namespace SampleClientCode
             using var httpClient = new HttpClient();
 
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
-            
+
+            //Add your guidance line info here
             var guidanceLineToCreate = new GuidanceLine()
             {
                 Name = "Some Guidance Line15",

@@ -30,6 +30,7 @@ namespace SampleClientCode
 
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
 
+            // Add your boundary info here
             var boundaryToCreate = new Boundary()
             {
                 Name = "Some Test Boundary15",

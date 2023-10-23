@@ -25,7 +25,7 @@ namespace SampleClientCode
 
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
 
-            //change the field name every time you make a request as the filed api does not allow duplicate names
+            //change the field name every time you make a request as the field api does not allow duplicate names
             var fieldToCreate = new Field()
             {
                 Name = "Some Test Field18",
