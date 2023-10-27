@@ -12,7 +12,7 @@ This repository is a collection of code samples that are specifically tailored f
 ## Languages Covered
 The examples in this repository are provided in the following languages:
 
-- C# 
+- [C#](/code_samples/CSharp_samples)
 - [Javascript](/code_samples/javascript_samples)
 - [Java](code_samples/java_samples)
 - [Python](/code_samples/python)
