@@ -4,7 +4,7 @@
 Welcome to the Ag Data API Examples repository! This collection of code examples/samples aims to provide developers with a guided approach to working with the Trimble Ag Data API and its commons workflows.
 
 ## About The Trimble Ag Data API
-The Trimble Ag Data API empowers third-party applications by enabling seamless data exchange capabilities with both the Trimble Ag Platform and Trimble Ag Displays deployed in the field. By leveraging these APIs, developers can ensure data integrity and real-time synchronization between multiple platforms and devices.
+The Trimble Ag Data API empowers third-party applications by enabling seamless data exchange capabilities with both the Trimble Ag Platform and Trimble Ag Displays deployed in the field. By leveraging these APIs, developers can ensure data integrity and real-time synchronization between multiple platforms and devices. API release notes can be found here: https://content.trimbleag.com/release-notes/Index.html#api
 
 ## Repository Contents
 This repository is a collection of code samples that are specifically tailored for development with the Trimble Ag APIs. Whether you're a novice looking to get started or an experienced developer looking for specific functionalities, these examples will serve as a valuable resource.
